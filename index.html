@@ -4,15 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="favicon/#" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon/favicon.ico"image/x-icon">
     <title>Projeto Crossfire HUD</title>
 </head>
 <body>
     <main>
+        <img src="/imagens/commlink_hud_526x754.png" alt="imagem de um commlink" class="commlink">
 
+        <h1 class="commlink__titulo" id="categoria"></h1>
+        <h2 class="commlink__subtitulo" id="titulo"></h2>
+        <p class="commlink__texto" id="fraseSorteada"></p>
+
+        <div class="botao">
+            <button class="botao__ante" onclick="embaralharESortear()">&lt;</button>
+            <button class="botao__post" onclick="embaralharESortear()">&gt;</button>
+        </div>
     </main>
 
     <footer>&copy; José Carlos Lima - 2024</footer>
+
+    <!-- Main JS -->
+    <script src="/js/script.js"></script>
+    <script src="/js/frases.js"></script>
     
 </body>
 </html>
