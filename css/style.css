@@ -63,10 +63,10 @@ main {
 
 .botoes {
     position: absolute;
-    bottom: 6%;
-    left: 36%;
     display: flex;
-    gap: 53px;
+    bottom: 6%;
+    left: 37%;
+    gap: 44%;
 }
 
 .botao__ante,
